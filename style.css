@@ -1,0 +1,907 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    
+}
+.travel-agency-landing-page .trabook-1 {
+    margin-right: 10.6px;
+    overflow-wrap: break-word;
+    font-family: 'Volkhov';
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    line-height: 1;
+    color: var(--primary-b, #222222);
+  }
+  .travel-agency-landing-page .vector-logo {
+    margin: 3px 0 2px 0;
+    width: 19px;
+    height: 19px;
+  
+  }
+  .travel-agency-landing-page .logo-1 {
+    margin: 13px 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .travel-agency-landing-page .home {
+    margin-right: 12px;
+    width: 48px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222222;
+  }
+  .travel-agency-landing-page .about {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222222;
+  }
+  .travel-agency-landing-page .destination {
+    overflow-wrap: break-word;
+    font-family: var(--title-font-family, 'Poppins');
+    font-weight: var(--title-font-weight, 400);
+    font-size: var(--title-font-size, 16px);
+    line-height: var(--title-line-height, 1.5);
+    color: #222222;
+  }
+  .travel-agency-landing-page .tour {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222222;
+  }
+  .travel-agency-landing-page .blog-1 {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222222;
+  }
+  .travel-agency-landing-page .menu {
+    margin: 13px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 386px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .travel-agency-landing-page .login-1 {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    color: #FD8D3A;
+  }
+  .travel-agency-landing-page .login {
+    margin: 13px 0;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .travel-agency-landing-page .sign-up-2 {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding:10px 30px;
+  }
+  .travel-agency-landing-page .sign-up-1 {
+    box-shadow: 0px 8px 16px 0px rgba(250, 116, 54, 0.24);
+    border-radius: 5px;
+    background: #FA7436;
+    position: relative;
+    display: flex;
+    padding: 10px;
+    width: 160px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .travel-agency-landing-page .nav-menu {
+    background: #FEFCFB;
+    position: fixed;
+    margin-right: 156px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px 0;
+    width: 1170px;
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50%;
+    width: 100%;
+    height: 100%;
+  
+}
+.text-section {
+    max-width: 50%;
+    margin-top: 80px;
+}
+
+.text-section h1 {
+    font-size: 3rem;
+    color: #333;
+   
+}
+.text-section h1 .highlight {
+    color: #ff6f3c;
+}
+
+.text-section p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #777;
+    font-family: "poppins",sans-serif;
+    width:55%;
+    font-weight: 400;
+}
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: transparent;
+    color: #FA7436;
+    text-decoration: none;
+    border: 2px solid #FA7436;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.image-section {
+    position: relative;
+    max-width: 50%;
+    top: 50px;
+    right: 50px;
+    margin-top:100px;
+}
+
+
+.circle-background {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: #ff6f3c;
+    border-radius: 60%;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    transform: translate(20%, 20%);
+    margin-top: 100px;
+}
+
+.traveller-image {
+    position: relative;
+    z-index: 2;
+    max-width: 100%;
+  
+}
+
+.badge {
+    position: absolute;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 3;
+}
+
+.badge .badge img {
+    width: 20px;
+    height: 24px;
+    padding:2px;
+}
+
+.badge-top-left {
+    bottom:170px;
+    right: 200px;
+}
+
+.badge-top-right {
+    bottom: 80px;
+    left: 20%;
+    font-family: "poppins",sans-serif;
+    font-size: 12px;
+    
+   
+}
+.badge-bottom-left {
+    top: 95%;
+    right: 190px;
+}
+.travel-agency-landing-page .location {
+  margin-right: 5.5px;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--primary-b, #222222);
+}
+.travel-agency-landing-page .vector-scrolling {
+  margin: 9.5px 0;
+  width: 10px;
+  height: 5px;
+}
+.travel-agency-landing-page .location-group {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.travel-agency-landing-page .where-are-u-going {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--paragraph, #666666);
+}
+.travel-agency-landing-page .group-location{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.travel-agency-landing-page .date {
+  margin-right: 6px;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--primary-b, #222222);
+}
+.travel-agency-landing-page .Date-group{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.travel-agency-landing-page .When-you-will-go {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--paragraph, #666666);
+}
+.travel-agency-landing-page .group-Date {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.travel-agency-landing-page .guest {
+  margin-right: 6px;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 13px;
+  color: var(--primary-b, #222222);
+}
+.travel-agency-landing-page .guest-group{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.travel-agency-landing-page .Number-of-guest {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--paragraph, #666666);
+}
+.travel-agency-landing-page .group-guest {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.travel-agency-landing-page .content-card{
+  margin: 4px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 528px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.travel-agency-landing-page .explore-now {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.778;
+  color: #FFFFFF;
+}
+.travel-agency-landing-page .explore-btn {
+  box-shadow: 0px 8px 16px 0px rgba(250, 116, 54, 0.16);
+  border-radius: 5px;
+  background: var(--primary-o, #FA7436);
+  display: flex;
+  padding: 14px 20px;
+  width: 165px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.travel-agency-landing-page .search-bar {
+  box-shadow: 0px 2px 80px 2px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  background: #FFFFFF;
+  position: relative;
+  margin: 0px 155px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 32px 24px;
+  width: 841px;
+  box-sizing: border-box;
+}
+.travel-agency-landing-page .hero-section{
+  background: #FEFCFB;
+  position: relative;
+  display: flex;
+ flex-direction: column;
+  align-items: center;
+  padding-bottom: 120px;
+  width:100%;
+  margin-left: 100px;
+  box-sizing: border-box;
+}
+.things-you-need-to-do-span {
+  font-family: 'Volkhov';
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1.333;
+}
+.things-you-need-to-do .span-color {
+  font-family: 'Volkhov';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.333;
+  color: var(--primary-o, #FA7436);
+}
+.travel-agency-landing-page .things-you-need-to-do {
+  margin-bottom: 14px;
+  overflow-wrap: break-word;
+  font-family: var(--section-title-font-family, 'Volkhov');
+  font-weight: var(--section-title-font-weight, 700);
+  font-size: var(--section-title-font-size, 48px);
+  line-height: var(--section-title-line-height, 1.125);
+  color: var(--primary-b, #222222);
+  background: #FEFCFB;
+}
+.travel-agency-landing-page .content-paragraph{
+  margin: 0 22.5px 0 22.8px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: var(--paragraph-18-px-font-family, 'Poppins');
+  font-weight: var(--paragraph-18-px-font-weight, 400);
+  font-size: var(--paragraph-18-px-font-size, 18px);
+  line-height: var(--paragraph-18-px-line-height, 1.778);
+  color: var(--paragraph, #666666);
+}
+.travel-agency-landing-page .content-heading {
+  margin-right: 66.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.travel-agency-landing-page .element {
+  margin-bottom: 11.3px;
+  width: 150.9px;
+  height: 130.7px;
+  margin-right: 120px;
+}
+.travel-agency-landing-page .container {
+  margin: 0 0 64px 246.9px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.travel-agency-landing-page .sign-up {
+  position: relative;
+  margin: 0 183.8px 16px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.417;
+  color: var(--primary-b, #222222);
+  padding: 5px;
+}
+.travel-agency-landing-page .signup-span{
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+   font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: var(--paragraph, #666666);
+}
+.travel-agency-landing-page .signup {
+  box-shadow: 14px 24px 72px 0px rgba(102, 102, 102, 0.1);
+  border-radius: 10px;
+  background: #FFFFFF;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  padding:5px;
+  
+}
+.travel-agency-landing-page .worth-of-money {
+  position: relative;
+  margin: 0 79.7px 16px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.417;
+  color: var(--primary-b, #222222);
+}
+.travel-agency-landing-page .money-span {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: var(--paragraph-16-x-font-family, 'Poppins');
+  font-weight: var(--paragraph-16-x-font-weight, 400);
+  font-size: var(--paragraph-16-x-font-size, 16px);
+  line-height: var(--paragraph-16-x-line-height, 1.625);
+  color: var(--paragraph, #666666);
+}
+.travel-agency-landing-page .money {
+  border-radius: 8px;
+  border: 2px solid rgba(102, 102, 102, 0.08);
+  background: #FFFFFF;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+}
+.travel-agency-landing-page .exciting-travel {
+  position: relative;
+  margin: 0 83.6px 16px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.417;
+  color: var(--primary-b, #222222);
+}
+.travel-agency-landing-page .travel-span {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: var(--paragraph, #666666);
+}
+.travel-agency-landing-page .travel {
+  border-radius: 8px;
+  border: 2px solid rgba(102, 102, 102, 0.08);
+  background: #FFFFFF;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  
+}
+.container-signup-money-travel{
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  width: 1170px;
+  box-sizing: border-box;
+}
+.travel-agency-landing-page .things-your-need {
+  
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0;
+  width:100%;
+  box-sizing: border-box;
+  margin-left: 100px;
+  background-color: #F7F8FC;
+  margin-top: 10px;
+}
+
+.discount-container {
+  width: 100%;
+  margin-left: 100px;
+  text-align: center;
+}
+h2 {
+  font-size: 2em;
+  margin: 20px 0;
+  font-family: "Volkhov",sans-serif;
+}
+.highlight {
+  color: #ff6f3c;
+}
+.section {
+  margin: 150px 0;
+  width:80%;
+  
+}
+.section p{
+  font-family:"poppins";
+  font-weight: 400;
+  font-size: 18px;
+  
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding:10px;
+  margin:10px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 200px;
+  overflow: hidden;
+  text-align: left;
+  position:relative;
+}
+.card img {
+  width: 100%;
+  height:auto;
+  object-fit: cover;
+}
+.card-content {
+  padding: 10px;
+}
+.card-content h3 {
+  font-size: 1.2em;
+  margin: 0;
+}
+.card-content p {
+  margin: 5px 0;
+  color: #777;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #f9f9f9;
+}
+.card-footer .price {
+  color: #ff6f3c;
+  font-weight: bold;
+}
+.card-footer .rating {
+  display: flex;
+  align-items: center;
+  color:#dfef04;
+  padding:10px;
+  margin:10px;
+}
+
+.card-footer .rating i {
+  margin-right: 5px;
+  padding:50px;
+}
+.pagination {
+  margin: 20px 0;
+}
+.pagination i {
+  color: #ff6f3c;
+  cursor: pointer;
+}
+.book-now {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6f3c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.card:hover .book-now {
+  opacity: 1;
+}
+.card-content .details {
+  display: flex;
+ justify-content: space-between;
+  align-items: center;
+  
+}
+.card-content .details .rating {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #ff6f3c;
+}
+.card-content .details .price {
+  color: #ff6f3c;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.testimonials {
+  text-align: center;
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: 100px auto;
+  display: flex;
+  background-color: #F7F8FC;
+  width:100%;
+  
+}
+
+.testimonial-header h2 {
+  font-size: 2.5rem;
+  color: #000;
+  font-family: "Volkhov",sans-serif;
+}
+
+.testimonial-header h2 span {
+  color: #ff6a3d;
+}
+
+.testimonial-header p {
+  margin: 15px 0;
+  color: #555;
+  font-family: "Roboto",sans-serif;
+  font-weight: 400;
+}
+
+.testimonial-slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.testimonial-card {
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+.user-image {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.testimonial-text {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.user-info {
+  font-size: 0.9rem;
+  color: #777;
+}
+button.prev, button.next {
+  background-color: #ff6a3d;
+  border: none;
+  color: white;
+  font-size: 10px;
+  font-weight: 100;
+  padding: 10px 15px;
+  border-radius: 60%;
+  cursor: pointer;
+  margin:20px;
+}
+
+button.prev:hover, button.next:hover {
+  background-color: #f35824;
+}
+
+.latest-blog-container{
+  text-align: center;
+  width:80%;
+  margin-left:100px;
+
+  
+}
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+h1 span {
+  color: #ff6600;
+}
+.blog-container{
+  display: flex;
+  justify-content:space-between;
+  gap:10px;
+  
+
+}
+.blog-item {
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.blog-item img {
+  width: 100%;
+  height: auto;
+}
+.blog-content {
+  padding: 15px;
+}
+.blog-content h3 {
+  font-size: 1em;
+  margin: 0 0 10px;
+  text-align: left;
+}
+.blog-content p {
+  font-size: 0.9em;
+  color: #888;
+  text-align: left;
+}
+
+
+.subscribe-section {
+  background-color: #ff6f3c;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+  border-radius: 10px;
+  margin:120px auto;
+  width: 80%;
+  height:100px ;
+  
+}
+.subscribe-section h2 {
+  font-size: 24px;
+  margin: 0 0 20px;
+}
+.subscribe-section .input-group {
+  display: inline-flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 5px;
+}
+.subscribe-section .input-group input {
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  outline: none;
+  flex: 1;
+}
+.subscribe-section .input-group button {
+  background-color: #ff6f3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  width: 100%;
+}
+.footer .column {
+  flex: 1;
+  min-width: 200px;
+  margin: 20px;
+  font-family: "poppins",sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  padding:20px;
+}
+.footer .column h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.footer .column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer .column ul li {
+  margin-bottom: 5px;
+}
+.footer .column ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+.footer .social-icons {
+  
+  display: flex;
+  gap: 10px;
+}
+.footer .social-icons a {
+  color: #000;
+  font-size: 20px;
+  text-decoration: none;
+}
+.footer .copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #6c757d;
+}
+.footer .terms {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #6c757d;
+  margin-right:20%;
+  margin-top: 20px;
+}
+
+@media screen and (max-width:500px) {
+   
+        .travel-agency-landing-page{
+          flex-direction: row;
+          flex-wrap: nowrap;
+
+        }
+        
+    }
+    
+
+    
+
+        
+
+  
